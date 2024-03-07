@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: linear-gradient(to bottom right, #5b7fff, #33ccfc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: #1e212b;
+  width: 20rem;
+  min-height: 20rem;
+  max-height: 35rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.degrees-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.lugar {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.image {
+  width: 50%;
+}
+
+.clima {
+  margin-bottom: 0.5rem;
+}
+
+.type-degrees {
+  border: none;
+  background: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 3rem;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+
+.type-degrees:hover {
+  background: #33ccfc;
+  transition: all 0.5s ease;
+}
+
+.country {
+  font-size: 0.95rem;
+  color: #5b7fff;
+}
+
+.more-info {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: #fff;
+}
+
+.more-info:hover {
+  background: #33ccfc;
+  transition: all 0.5s ease;
+}
+
+.info-extra {
+  text-align: start;
+  margin: 1rem 0;
+}
